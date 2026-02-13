@@ -1,0 +1,1619 @@
+Found 17 Blood Requests:
+  [Request #1] Patient: kunjappan, Group: o+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+']
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+  [Request #2] Patient: kunja, Group: B+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #3] Patient: Nayana Joshy, Group: A+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'A-', 'A+']
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+  [Request #4] Patient: Nayana Joshy, Group: B+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #5] Patient: Nayana Joshy, Group: A+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'A-', 'A+']
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+  [Request #6] Patient: Nayana Joshy, Group: O+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+']
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+  [Request #7] Patient: Nayana Joshy, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #8] Patient: Nayana Joshy, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #9] Patient: Acsah Rojan, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #10] Patient: Acsah Rojan, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #11] Patient: Acsah Rojan, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #12] Patient: Irin, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #13] Patient: mini, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #14] Patient: Nayana Joshy, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #15] Patient: irin, Group: B+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #16] Patient: Chinju, Group: B+, Status: SEEN, Fulfilled: True
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+  [Request #17] Patient: Irin, Group: B+, Status: SEEN, Fulfilled: False
+    -> Needs Donor Types: ['O-', 'O+', 'B-', 'B+']
+    -> Checking Donor #1 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #2 (Rajeev, B+):
+       - Status: 'REJECTED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=False, Available=True, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #3 (Rajeev, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #4 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #5 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #6 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #7 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #8 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #9 (Acsah Rojan, B+):
+       - Status: 'PENDING' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #10 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #11 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #12 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #13 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #14 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #15 (Rajeev, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #16 (Acsah Rojan, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: 2026-02-03 (1 days ago)
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=True
+       => NO MATCH.
+    -> Checking Donor #17 (Aida, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #18 (Midhun K Babu, O+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: True (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=True, Cooldown=False
+       => MATCH! Should appear.
+    -> Checking Donor #19 (Kelvin, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
+    -> Checking Donor #20 (Mariyam Rahima, B+):
+       - Status: 'APPROVED' (Needs 'APPROVED')
+       - Available: False (Needs True)
+       - Last Donated: Never
+       -> Checks: Approved/Pending=True, Available=False, Cooldown=False
+       => NO MATCH.
