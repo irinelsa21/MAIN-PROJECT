@@ -749,59 +749,18 @@ const Bloodhome = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <div className="flex items-center mb-4 leading-none">
-                <Logo size={40} color="#ffffff" />
-              </div>
-              <p className="text-gray-400 text-sm">
-                Connecting donors with those in need since 2014
-              </p>
+          <div className="flex flex-col items-center mb-8">
+            <div className="flex items-center mb-4 leading-none">
+              <Logo size={40} color="#ffffff" />
             </div>
-
-            <div>
-              <h4 className="font-bold mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">How It Works</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">FAQs</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold mb-4">Support</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Emergency</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold mb-4">Newsletter</h4>
-              <p className="text-sm text-gray-400 mb-4">Stay updated with our latest news</p>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-4 py-2 rounded-l-full bg-gray-800 border border-gray-700 focus:outline-none focus:border-red-500 text-sm"
-                />
-                <button className="px-6 py-2 bg-red-600 rounded-r-full hover:bg-red-700 transition-colors">
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
+            <p className="text-gray-400 text-sm text-center">
+              Connecting donors since 2014
+            </p>
           </div>
 
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+          <div className="border-t border-gray-800 pt-8 flex flex-col items-center text-sm text-gray-400">
             <p>© 2026 LifeFlow. All rights reserved. Every drop counts.</p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="hover:text-white transition-colors">Privacy</a>
-              <a href="#" className="hover:text-white transition-colors">Terms</a>
-              <a href="#" className="hover:text-white transition-colors">Cookies</a>
-            </div>
+            
           </div>
         </div>
       </footer>
