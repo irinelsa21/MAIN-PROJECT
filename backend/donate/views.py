@@ -1125,14 +1125,11 @@ def user_dashboard_stats(request, user_id):
     try:
         user = UserRegister.objects.get(id=user_id)
 
-        # Total Donations: Count fulfilled assignments for this user's donor records
-        total_donations = Assignment.objects.filter(
-            donor__user=user, 
-            blood_request__is_fulfilled=True
-        ).count()
+        # Total Donations: Direct count from assignment table for this user's donor records
+        total_donations = Assignment.objects.filter(donor__user=user).count()
 
-        # Lives Saved: Standard estimate (1 donation saves 3 lives)
-        lives_saved = total_donations * 3
+        # Lives Saved: Standard count as requested by the user
+        lives_saved = total_donations
 
         # Eligibility: 90 days after last donation
         next_eligible = "Eligible Now"
